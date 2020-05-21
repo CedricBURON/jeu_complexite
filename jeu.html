@@ -1,0 +1,14 @@
+<html>
+  <meta charset="UTF-8">
+  <script src="./jeu.js"></script>
+  <body>
+    <p id="main_text">main</p>
+    <button id="OK" name="OK" onclick="questionSuivante();">OK</button>
+    <button id="A" name="A" onclick="choix('A');"></button>
+    <button id="B" name="B" onclick="choix('B');"></button>
+    <button id="C" name="C" onclick="choix('C');"></button>
+  </body>
+  <script>
+    window.addEventListener("DOMContentLoaded",questionSuivante());
+  </script>
+  </html>
